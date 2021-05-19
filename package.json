@@ -1,0 +1,23 @@
+{
+  "name": "next-mern",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env MONGODB_URI=mongodb://localhost:27017 MONGODB_DB=test-db node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production MONGODB_URI=mongodb://localhost:27017 MONGODB_DB=test-db node server.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.5.9",
+    "next": "latest",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "license": "MIT"
+}
